@@ -23,7 +23,6 @@ public class StudentRegistrationService {
     }
 
     public StudentRegistration createStudentRegistration(StudentRegistration studentRegistration) {
-        System.out.println("Printing Data"+studentRegistration);
         return studentRegistrationRepository.save(studentRegistration);
     }
 
